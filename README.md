@@ -1,6 +1,16 @@
-# WeatherWatcher
+# Weather Watcher
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
+Weather Watcher is an Angular 2 application that that accesses world wide weather conditions and forecast information from [World Weather Online](https://developer.worldweatheronline.com/api/default.aspx).
+
+Just enter a search argument in the form of zip code, city name, or city name and state/province.region.
+
+The app interacts with with a micro service that pulls information from World Weather Online and converts the contents to JSON with CORS headers. For details see [https://github.com/programming4phone/weather.watcher.collector](https://github.com/programming4phone/weather.watcher.collector).
+
+The app is currently deployed on [www.programming4phone.com](http://www.programming4phone.com/weather-watcher/index.html).
+
+
+## Development stack
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24. The code base also uses Semantic UI 2.2 for styling HTML markup.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

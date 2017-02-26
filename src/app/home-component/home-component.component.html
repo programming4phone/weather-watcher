@@ -1,0 +1,5 @@
+<app-weather-search (results)="updateResults($event)"></app-weather-search>
+
+<app-right-now *ngIf="results" [rightnow]="results.rightnow"></app-right-now>
+
+<app-forecast-list *ngIf="results"[forecasts]="results.forecasts"></app-forecast-list>
